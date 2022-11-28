@@ -30,7 +30,7 @@ my_authors[1:1]
 ### Step 2 - Tuples ###
 
 # Create your tuple below. Assign it to a variable name you can reference later in the exercise.
-
+my_author_tuple = ("chuck palahniuk", "orsen wells", "mark twain")
 # Code here
 # Example: my_author_tuple = ("F. Scott Fitzgerald", "J.K. Rowling", "Ernest Hemingway", "Emily Dickenson", "George Orwell", "Ray Bradbury")
 
@@ -38,7 +38,8 @@ my_authors[1:1]
 ### Step 3 - Sets ###
 
 # Create a set with your authors.
-
+my_author_set = {"chuck palahniuk", "orsen wells", "mark twain"}
+ 
 # Code here
 # Example: my_author_set = {"F. Scott Fitzgerald", "J.K. Rowling", "Ernest Hemingway", "Emily Dickenson", "George Orwell", "Ray Bradbury"}
 
@@ -47,10 +48,11 @@ my_authors[1:1]
 
 # Code here
 # Example: my_author_set.add("J.R.R. Tolkien")
-
+my_author_set.add("Andy Weir")
 
 # Try adding the same author again, and be sure to print your set.
-
+my_author_set.add("Andy Weir")
+print(my_author_set)
 # Code here
 # Example: my_author_set.add("J.R.R. Tolkien")
 
@@ -65,10 +67,13 @@ my_authors[1:1]
 
 # for book in my_authors:
     # print(book)
-
+for book in my_authors:
+    print(book)
 # for book in my_authors_tuple:
     # print(book)
-
+for book in my_author_tuple:
+    print(book)
 # for book in my_authors_set:
     # print(book)
-
+for book in my_author_set:
+    print(book)

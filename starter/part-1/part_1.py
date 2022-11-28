@@ -43,4 +43,19 @@ is_awesome = True
 # Follow the instructions, and below this line, code all of the suggested print statements and the type statements.
 # Code below
 
-print(f"{book_name} by {author} was published in {publication_year}. The book currently costs {book_price} and {is_awesome}")   
+
+print(book_name)
+print(author)
+print(sentence1)
+print(sentence2)
+print(publication_year)
+print(book_price)
+print(is_awesome)
+
+print(type(book_name))
+print(type(author))
+print(type(sentence1))
+print(type(sentence2))
+print(type(publication_year))
+print(type(book_price))
+print(type(is_awesome))
